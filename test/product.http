@@ -1,0 +1,12 @@
+POST http://localhost:8000/products
+Content-Type: application/json
+
+{
+    "name": "My Product 3",
+    "price": 100
+}
+
+###
+
+GET http://localhost:8000/products HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkxNjg0ODksInN1YiI6ImM1YWExMmM2LTExYTItNGRkNS05ODYyLTAyM2E0NmEwNDk2MCJ9.hA9vwcXz2cCvf1bQiglYrdF_QTZdP31O3uVHL6yKoVA
